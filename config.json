@@ -1,0 +1,52 @@
+{
+  "version": {
+    "latest_version": "1.3.8",
+    "force_update": false,
+    "changelog": [
+      "Official Telegram channel integration",
+      "Automatic background updates with 24-hour interval",
+      "Fixed player rotation and stream buffering"
+    ]
+  },
+  "platforms": {
+    "android": {
+      "latest_version": "1.3.8",
+      "force_update": false,
+      "changelog": [
+        "Added Telegram channel button on AdGate and mobile drawer",
+        "Optimized video buffer on mobile networks",
+        "Landscape player lock fix"
+      ],
+      "downloads": {
+        "arm64-v8a": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/rkmovies-arm64-v8a.apk",
+        "armeabi-v7a": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/rkmovies-armeabi-v7a.apk",
+        "x86_64": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/rkmovies-x86_64.apk",
+        "universal": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/rkmovies-universal.apk"
+      }
+    },
+    "desktop": {
+      "latest_version": "1.3.8",
+      "force_update": false,
+      "changelog": [
+        "Added Telegram community in settings",
+        "Multi-architecture Windows installers",
+        "Reduced idle CPU footprint"
+      ],
+      "downloads": {
+        "x64": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/RKMovies_Setup_v1.3.8_x64.exe",
+        "x86": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/RKMovies_Setup_v1.3.8_x86.exe",
+        "arm64": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/RKMovies_Setup_v1.3.8_arm64.exe",
+        "universal": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/RKMovies_Setup_v1.3.8_universal.exe"
+      }
+    }
+  },
+  "notice": {
+    "id": 1,
+    "target_platform": "all",
+    "tag": "COMMUNITY",
+    "title": "Welcome to RKMovies!",
+    "message": "Join our official Telegram channel for instant release alerts, movie requests, and future app announcements.",
+    "action_text": "Join Telegram",
+    "action_url": "https://t.me/+lL4FRP5vGZY2NGVl"
+  }
+}
