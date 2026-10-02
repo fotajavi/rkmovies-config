@@ -4,8 +4,9 @@
     "force_update": false,
     "changelog": [
       "Official Telegram channel integration",
-      "Automatic background updates with 24-hour interval",
-      "Fixed player rotation and stream buffering"
+      "Fixed mobile player touch-to-pause and center pause button",
+      "Fixed horizontal swipe seeking on mobile devices",
+      "Automatic background updates with 24-hour interval"
     ]
   },
   "platforms": {
@@ -14,8 +15,9 @@
       "force_update": false,
       "changelog": [
         "Added Telegram channel button on AdGate and mobile drawer",
+        "Fixed mobile player center pause and horizontal swipe seeking",
         "Optimized video buffer on mobile networks",
-        "Landscape player lock fix"
+        "Landscape player orientation lock fix"
       ],
       "downloads": {
         "arm64-v8a": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/rkmovies-arm64-v8a.apk",
@@ -29,8 +31,9 @@
       "force_update": false,
       "changelog": [
         "Added Telegram community in settings",
-        "Multi-architecture Windows installers",
-        "Reduced idle CPU footprint"
+        "Multi-architecture Windows 7-11 installers",
+        "Background update check with 24-hour jitter",
+        "Enhanced hardware playback"
       ],
       "downloads": {
         "x64": "https://github.com/fotajavi/rkmovies-config/releases/download/v1.3.8/RKMovies_Setup_v1.3.8_x64.exe",
@@ -42,11 +45,13 @@
   },
   "notice": {
     "id": 1,
+    "enabled": true,
     "target_platform": "all",
     "tag": "COMMUNITY",
     "title": "Welcome to RKMovies!",
     "message": "Join our official Telegram channel for instant release alerts, movie requests, and future app announcements.",
     "action_text": "Join Telegram",
     "action_url": "https://t.me/+lL4FRP5vGZY2NGVl"
-  }
+  },
+  "notifications_enabled": false
 }
