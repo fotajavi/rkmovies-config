@@ -1,10 +1,11 @@
 {
   "version": {
-    "latest_version": "1.3.8",
+    "latest_version": "1.3.8.1",
     "force_update": false,
     "website_url": "https://rkmovies.dpdns.org/",
-    "github_releases_url": "https://github.com/fotajavi/rkmovies-config/releases/tag/v1.3.8",
+    "github_releases_url": "https://github.com/fotajavi/rkmovies-config/releases/tag/v1.3.8.1",
     "changelog": [
+      "Fixed mobile timeline bar scrolling/scrubbing and tap seeking",
       "Official Telegram channel integration",
       "Fixed mobile player touch-to-pause and center pause button",
       "Fixed horizontal swipe seeking on mobile devices",
@@ -13,11 +14,12 @@
   },
   "platforms": {
     "android": {
-      "latest_version": "1.3.8",
+      "latest_version": "1.3.8.1",
       "force_update": false,
       "website_url": "https://rkmovies.dpdns.org/android",
-      "github_releases_url": "https://github.com/fotajavi/rkmovies-config/releases/tag/v1.3.8",
+      "github_releases_url": "https://github.com/fotajavi/rkmovies-config/releases/tag/v1.3.8.1",
       "changelog": [
+        "Fixed mobile timeline bar scrolling/scrubbing and tap seeking",
         "Added Telegram channel button on AdGate and mobile drawer",
         "Fixed mobile player center pause and horizontal swipe seeking",
         "Optimized video buffer on mobile networks",
